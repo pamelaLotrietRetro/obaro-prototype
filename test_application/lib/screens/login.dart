@@ -35,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
         //navigate to new page
         Future.delayed(const Duration(seconds: 3), () {
           Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => LandingScreen()),
+            MaterialPageRoute(builder: (context) => const LandingScreen()),
           );
         });
       } catch (e) {
